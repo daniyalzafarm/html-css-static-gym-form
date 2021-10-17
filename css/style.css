@@ -1,0 +1,112 @@
+/* css reset */
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../img/bg9.jpg");
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 15px;
+  /* border: 2px solid rebeccapurple; */
+}
+
+.mid {
+  /* border: 2px solid rgb(128, 0, 255); */
+  display: block;
+  width: 50%;
+  margin: 15px auto;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 15px;
+  /* border: 2px solid rgb(17, 65, 80); */
+}
+.left img {
+  width: 50px;
+  filter: invert(100%);
+}
+.left {
+  text-align: center;
+}
+.left div {
+  color: rgb(255, 255, 255);
+  font: bolder;
+  line-height: 0px;
+  text-align: center;
+  font-size: 18px;
+}
+.navbar {
+  margin: 35px 0px;
+}
+.navbar li {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar li a {
+  color: white;
+  font: bolder;
+  text-decoration: none;
+  padding: 15px 33px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: rgb(255, 0, 0);
+}
+.btn {
+  margin: 18px 4px;
+  padding: 0px 15px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgb(60, 54, 119);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.btn:hover {
+  background-color: rgb(255, 0, 0);
+}
+.submit {
+  margin: 18px 4px;
+  padding: 4px 180px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgb(32, 28, 70);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.submit:hover {
+  background-color: rgb(255, 0, 0);
+}
+.container {
+  border: 2px solid white;
+  border-radius: 55px;
+  width: 33%;
+  margin: 60px auto;
+  padding: 20px 20px;
+}
+.container {
+  text-align: center;
+}
+.container .formgroup input {
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: rgb(32, 28, 70);
+  background-color: rgba(255, 255, 255, 0.884);
+  margin: 20px 2px;
+  padding: 4px 10px;
+  /* width: 400px; */
+}
